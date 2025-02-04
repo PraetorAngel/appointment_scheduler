@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ogborn.c868final.Controller.AddAppointmentForm">
+   <children>
+      <Label fx:id="headerLabel" alignment="CENTER" prefWidth="1280.0" text="updateAppointmentText">
+         <font>
+            <Font name="System Bold" size="84.0" />
+         </font></Label>
+      <Button fx:id="updateButton" layoutX="650.0" layoutY="624.0" mnemonicParsing="false" onAction="#onUpdateButtonClick" prefHeight="72.0" prefWidth="386.0" text="updateText">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font></Button>
+      <Button fx:id="cancelButton" layoutX="260.0" layoutY="624.0" mnemonicParsing="false" onAction="#onCancelButtonClick" prefHeight="72.0" prefWidth="370.0" text="cancelText">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font></Button>
+      <Label fx:id="appointmentIdLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="146.0" prefWidth="300.0" text="appointmentIdText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="appointmentIdField" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="650.0" layoutY="140.0" prefHeight="36.0" prefWidth="300.0" promptText="&lt;auto-generated&gt;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="titleLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="190.0" prefWidth="300.0" text="titleText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="titleField" alignment="CENTER_RIGHT" layoutX="650.0" layoutY="184.0" prefHeight="36.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="descriptionLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="234.0" prefWidth="300.0" text="descriptionText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="descriptionField" alignment="CENTER_RIGHT" layoutX="650.0" layoutY="228.0" prefHeight="36.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="locationLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="278.0" prefWidth="300.0" text="locationText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="locationField" alignment="CENTER_RIGHT" layoutX="650.0" layoutY="272.0" prefHeight="36.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="contactLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="321.0" prefWidth="300.0" text="contactLabel">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="contactComboBox" layoutX="650.0" layoutY="316.0" prefHeight="36.0" prefWidth="300.0" />
+      <Label fx:id="typeLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="364.0" prefWidth="300.0" text="typeText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="typeField" alignment="CENTER_RIGHT" layoutX="650.0" layoutY="358.0" prefHeight="36.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="startLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="409.0" prefWidth="300.0" text="startText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="startTimeComboBox" layoutX="650.0" layoutY="404.0" prefHeight="36.0" prefWidth="300.0" />
+      <Label fx:id="endLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="451.0" prefWidth="300.0" text="endText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="endTimeComboBox" layoutX="650.0" layoutY="446.0" prefHeight="36.0" prefWidth="300.0" />
+      <Label fx:id="dateLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="493.0" prefWidth="300.0" text="dateText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <DatePicker fx:id="datePicker" layoutX="650.0" layoutY="488.0" prefHeight="36.0" prefWidth="300.0" />
+      <Label fx:id="customerLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="535.0" prefWidth="300.0" text="customerText">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="customerComboBox" layoutX="650.0" layoutY="530.0" prefHeight="36.0" prefWidth="300.0" />
+      <Label fx:id="userLabel" alignment="CENTER_RIGHT" layoutX="330.0" layoutY="577.0" prefWidth="300.0" text="userLabel">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ComboBox fx:id="userComboBox" layoutX="650.0" layoutY="572.0" prefHeight="36.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>
