@@ -22,6 +22,7 @@ A scheduling application designed to manage appointments for customers and conta
 
 ## Initial Setup
 1.	Install and Set Up Database
+   
 	A. Install MySQL Server & Workbench
 		Download MySQL Installer from MySQL's website.
 		Run it and install:
@@ -46,7 +47,7 @@ A scheduling application designed to manage appointments for customers and conta
 	Connection details if necessary:
 		Refer to JDBC_source.txt located in the \setup_files\ folder in the project root
 		
-2. 	Confirm all other dependencies are installed
+3. 	Confirm all other dependencies are installed
 	A.	Java 17 (v17.0.2 or higher) 
 			If necessary, download it here: https://download.java.net/java/GA/jdk17.0.2/dfd4a8d0985749f896bed50d7138ee7f/8/GPL/openjdk-17.0.2_windows-x64_bin.zip
 			
